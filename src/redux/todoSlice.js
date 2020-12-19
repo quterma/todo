@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { nanoid } from "nanoid";
-import date from "./../utils/date";
+import date from "../utils/date";
 
 export const todoSlice = createSlice({
 	name: "todo",

@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import todoReducer from "./todoSlice";
 import throttle from "lodash.throttle";
-import { loadState, saveState } from "./../utils/localStorage";
+import { loadState, saveState } from "../utils/localStorage";
 
 // get state from localStorage
 const persistedState = loadState();
